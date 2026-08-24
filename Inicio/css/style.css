@@ -1,4 +1,4 @@
-:root {
+:root{
     --background: #120000;
     --background-dark: #0d0000;
     --panel: #1a0505;
@@ -11,15 +11,15 @@
     --text-muted: #888888;
 }
 
-* {
+*{
     box-sizing: border-box;
 }
 
-html {
+html{
     scroll-behavior: smooth;
 }
 
-body {
+body{
     margin: 0;
     background-color: var(--background);
     color: var(--text);
@@ -27,7 +27,7 @@ body {
     line-height: 1.6;
 }
 
-.site-header {
+.si-header{
     min-height: 70px;
     padding: 0 30px;
     display: flex;
@@ -37,7 +37,7 @@ body {
     border-bottom: 1px solid var(--red);
 }
 
-.logo {
+.logo{
     display: flex;
     flex-direction: column;
     color: var(--text);
@@ -45,12 +45,12 @@ body {
     line-height: 1;
 }
 
-.logo strong {
+.logo strong{
     font-size: 20px;
     letter-spacing: 2px;
 }
 
-.logo span {
+.logo span{
     margin-top: 5px;
     color: var(--red-light);
     font-size: 11px;
@@ -58,11 +58,11 @@ body {
     letter-spacing: 2px;
 }
 
-nav {
+nav{
     display: flex;
 }
 
-nav a {
+nav a{
     padding: 24px 14px;
     color: #cccccc;
     text-decoration: none;
@@ -71,48 +71,48 @@ nav a {
 }
 
 nav a:hover,
-nav a.active {
+nav a.active{
     color: var(--text);
     background-color: var(--panel);
 }
 
-nav a.active {
+nav a.active{
     border-bottom: 2px solid var(--red-light);
 }
 
-main {
+main{
     width: min(1100px, calc(100% - 40px));
     margin: 0 auto;
     padding: 35px 0 60px;
 }
 
-main > h1 {
+main > h1{
     margin: 0 0 25px;
     padding-bottom: 12px;
     border-bottom: 1px solid var(--border);
     font-size: 34px;
 }
 
-.welcome {
+.welcome{
     margin-bottom: 35px;
     padding: 25px;
     background-color: var(--panel);
     border: 1px solid var(--red);
 }
 
-.welcome h2 {
+.welcome h2{
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 25px;
 }
 
-.welcome p {
+.welcome p{
     line-height: 1.7;
     color: var(--text-secondary);
 }
 
-.highlight {
-    color: var(--text);
+.highlight{
+    color: var(-text);
     font-weight: bold;
     text-decoration: underline;
     text-decoration-color: var(--text);
@@ -121,18 +121,18 @@ main > h1 {
     text-shadow: 0 0 6px rgba(255, 255, 255, .4);
 }
 
-.wiki-section {
+.wiki-section{
     margin-top: 35px;
 }
 
-.wiki-section > h2 {
+.wiki-section > h2{
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid var(--border);
     font-size: 24px;
 }
 
-.wiki-section article {
+.wiki-section article{
     margin-bottom: 15px;
     padding: 20px;
     background-color: var(--panel);
@@ -140,33 +140,33 @@ main > h1 {
     transition: background-color .2s ease, border-color .2s ease, transform .2s ease;
 }
 
-.wiki-section article:hover {
+.wiki-section article:hover{
     background-color: var(--panel-hover);
     border-color: var(--red);
     transform: translateY(-2px);
 }
 
-.wiki-section article h3 {
+.wiki-section article h3{
     margin: 0 0 8px;
     font-size: 20px;
 }
 
-.wiki-section article p {
+.wiki-section article p{
     margin: 0 0 12px;
     color: var(--text-secondary);
 }
 
-.wiki-section article a {
+.wiki-section article a{
     color: var(--red-light);
     font-weight: bold;
     text-decoration: none;
 }
 
-.wiki-section article a:hover {
+.wiki-section article a:hover{
     text-decoration: underline;
 }
 
-.wiki-notice {
+.wiki-notice{
     margin-top: 35px;
     padding: 20px;
     background-color: #170404;
@@ -176,31 +176,31 @@ main > h1 {
     border-bottom: 1px solid #6b0000;
 }
 
-.wiki-notice h2 {
+.wiki-notice h2{
     margin-top: 0;
     font-size: 20px;
 }
 
-.wiki-notice p {
+.wiki-notice p{
     margin-bottom: 0;
     color: var(--text-secondary);
 }
 
-footer {
+footer{
     padding: 25px;
     background-color: var(--background-dark);
     border-top: 1px solid var(--border);
     text-align: center;
 }
 
-footer p {
+footer p{
     margin: 5px;
     color: var(--text-muted);
     font-size: 12px;
 }
 
-@media (max-width: 800px) {
-    .site-header {
+@media (max-width: 800px){
+    .site-header{
         padding: 15px 20px;
         flex-direction: column;
         align-items: flex-start;
@@ -208,44 +208,44 @@ footer p {
     }
 
     
-    nav {
+    nav{
         width: 100%;
         overflow-x: auto;
     }
 
-    nav a {
+    nav a{
         padding: 12px;
         white-space: nowrap;
     }
 
-    main {
+    main{
         width: min(100% - 25px, 700px);
         padding-top: 25px;
     }
 }
 
-@media (max-width: 500px) {
-    main > h1 {
+@media (max-width: 500px){
+    main > h1{
         font-size: 28px;
     }
 
-    .welcome {
+    .welcome{
         padding: 18px;
     }
 
-    .welcome h2 {
+    .welcome h2{
         font-size: 21px;
     }
 }
 
-@media (prefers-reduced-motion: reduce) {
-    html {
+@media (prefers-reduced-motion: reduce){
+    html{
         scroll-behavior: auto;
     }
 
     *,
     *::before,
-    *::after {
+    *::after{
         transition: none !important;
         animation: none !important;
     }
