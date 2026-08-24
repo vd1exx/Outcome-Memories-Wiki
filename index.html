@@ -1,34 +1,112 @@
+<!-- Femboy Manymate1 approach to your page, Fix it, And leaves -->
+
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Description of your page that appears in search results -->
+
+    <meta
+    
+    name="description" 
+    
+    content="Unofficial wiki for Sonic.EXE: Outcome Memories, an asymmetrical horror game on Roblox.">
+
+    <!-- ========= -->
+
     <title>Outcome Memories Wiki</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FavIcon -->
+
+    <link rel="icon" href="frontend/img/Favicon.webp">
+
+    <!-- General Styles -->
+
+    <link rel="stylesheet" href="frontend/css/style.css">
+    <link rel="stylesheet" href="frontend/css/layout.css">
+
+    <!-- Page Styles -->
+
+    <link rel="stylesheet" href="frontend/css/carousel.css">
+
+    
 </head>
+
+    <!-- ==== Scripts ==== -->
+
+        <!-- Carousel Images -->
+
+        <script
+
+        src="frontend/scripts/img-carousel.js"
+        
+        defer
+
+        >
+
+        </script>
 
 <body>
 
-    <header class="si-header">
+    <header class="header-logo">
+
         <a href="index.html" class="logo">
+
             <strong>OUTCOME</strong>
             <span>MEMORIES WIKI</span>
+
         </a>
 
-        <nav>
-            <a href="index.html" class="active">Home</a>
-            <a href="#">Survivors</a>
-            <a href="#">Executioners</a>
-            <a href="#">Maps</a>
-            <a href="#">Lore</a>
-            <a href="#">Abilities</a>
-        </nav>
+    <!-- Nav-Bar -->
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.html" class="active">Home</a>
+            </li>
+
+            <li>
+                <a href="survivors.html">Survivors</a>
+            </li>
+
+            <li>
+                <a href="executioners.html">Executioners</a>
+            </li>
+
+            <li>
+                <a href="maps.html">Maps</a>
+            </li>
+
+            <li>
+                <a href="lore.html">Lore</a>
+            </li>
+
+            <li>
+                <a href="abilities.html">Abilities</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <!-- Content -->
+
     </header>
 
     <main>
-        <h1>Home</h1>
 
-        <section class="welcome">
+    <h1>Home</h1>
+
+    <section class="welcome">
+
+        <div class="welcome-text">
+
             <h2>Welcome to The Outcome Memories Wiki!</h2>
 
             <p>Sonic.EXE: Outcome Memories was an asymmetrical Roblox horror game created in 2025. It centers around characters from the Sonic the Hedgehog franchise attempting to survive a monstrous, twisted version of their hero.</p>
@@ -37,46 +115,180 @@
 
             <p>Explore Survivors, Executioners, Maps, Lore, Abilities and more!</p>
 
-            <p>This wiki is <span class="highlight">archived</span> but shall remain up if people wish to learn about OM.</p>
-        </section>
+            <p>
+
+                This wiki is
+
+                <span class="highlight">archived</span>
+
+                but shall remain up if people wish to learn about OM.
+
+            </p>
+
+        </div>
+
+        <div class="carousel" id="carousel">
+
+            <!-- Carousel Title ( With a link to the roblox game page )-->
+
+            <div class="carousel-bar">
+                
+                <a
+                
+                href="https://www.roblox.com/games/14608970270/Outcome-Memories-v0-2" 
+                
+                target="_blank"
+                
+                >
+                
+                Outcome Memories V0.2
+            
+                </a>
+            
+            </div>
+
+            <!-- Carousel Images -->
+
+            <div class="carousel-track" id="carouselTrack">
+
+                <!-- Slide 1 -->
+
+                <div class="carousel-slide">
+                    
+                    <img src="frontend/img/carousel-imgs/om1.webp"
+                    
+                    alt="Outcome Memories screenshot 1">
+
+                </div>
+
+                <!-- Slide 2 -->
+
+                <div class="carousel-slide">
+
+                    <img
+                    
+                    src="frontend/img/carousel-imgs/om2.webp"
+                    
+                    alt="Outcome Memories screenshot 2">
+
+                </div>
+
+                <!-- Slide 3 -->
+
+                <div class="carousel-slide">
+
+                    <img src="frontend/img/carousel-imgs/om3.webp"
+                    
+                    alt="Outcome Memories screenshot 3">
+
+                </div>
+
+                <!-- Slide 4 -->
+
+                <div class="carousel-slide">
+
+                    <img 
+                    
+                    src="frontend/img/carousel-imgs/om4.webp" 
+                    
+                    alt="Outcome Memories screenshot 4">
+
+                </div>
+
+                <!-- Slide 5 -->
+
+                <div class="carousel-slide">
+
+                    <img 
+                    
+                    src="frontend/img/carousel-imgs/om5.webp" 
+                    
+                    alt="Outcome Memories screenshot 5">
+
+                </div>
+
+            </div>
+
+            <button class="carousel-btn prev" onclick="moveCarousel(-1)">‹</button>
+
+            <button class="carousel-btn next" onclick="moveCarousel(1)">›</button>
+
+        </div>
+
+    </section>
+
+</main>
 
         <section class="wiki-section">
+
             <h2>Explore the Wiki</h2>
 
             <article>
+
                 <h3>Survivors</h3>
+
                 <p>Characters who must survive against the Executioners.</p>
+
                 <a href="#">View Survivors →</a>
+
             </article>
 
             <article>
+
                 <h3>Executioners</h3>
+
                 <p>The entities responsible for hunting the Survivors.</p>
+
                 <a href="#">View Executioners →</a>
+
             </article>
 
             <article>
+
                 <h3>Maps</h3>
+
                 <p>Explore the different locations featured in Outcome Memories.</p>
+
                 <a href="#">View Maps →</a>
+
             </article>
 
             <article>
+
                 <h3>Lore</h3>
+
                 <p>Discover the history and mysteries surrounding the game.</p>
+
                 <a href="#">Explore Lore →</a>
+
             </article>
+
         </section>
 
         <aside class="wiki-notice">
+
             <h2>Wiki Status</h2>
-            <p>This wiki is currently <strong>archived</strong>. The information will remain available for anyone interested in Outcome Memories.</p>
+
+            <p>
+                
+                This wiki is currently 
+                    
+                <strong>archived</strong>. 
+                    
+                The information will remain available for anyone interested in Outcome Memories.
+        
+            </p>
+
         </aside>
+
     </main>
 
     <footer>
+
         <p>Outcome Memories Wiki — Unofficial Fan Project</p>
+
         <p>This project is not affiliated with the original creators.</p>
+
     </footer>
 
 </body>

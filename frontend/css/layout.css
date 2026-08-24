@@ -1,0 +1,70 @@
+
+/* Cambios Hecho Por @Manymate1 */
+
+body{
+
+    background-image: url(../img/Backgrounds/Background.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/* Navigator Elements */
+
+nav ul{
+    display: flex;
+}
+
+nav ul{
+
+    list-style: none;
+
+}
+
+nav a{
+    padding: 24px 14px;
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color .2s ease, background-color .2s ease;
+}
+
+nav a:hover,
+
+nav a.active{
+    color: var(--text);
+    background-color: var(--panel);
+}
+
+nav a.active{
+    border-bottom: 2px solid var(--red-light);
+}
+
+/* Responsive designs for 800px screens */
+
+@media (max-width: 800px){
+    .site-header{
+        padding: 15px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+/* --- */
+    
+    nav{
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    nav a{
+        padding: 12px;
+        white-space: nowrap;
+    }
+
+    main{
+        width: min(100% - 25px, 700px);
+        padding-top: 25px;
+    }
+}
