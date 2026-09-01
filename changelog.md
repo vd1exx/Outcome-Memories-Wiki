@@ -1,9 +1,10 @@
-Changelog
+# Changelog
 
 --Cambios hechos por Manymate1--
 
-Nota para mi manysito: A partir de este changelog modifique ligeramente la forma de redactar tus cambios, para hacerlos un poco más formales, claros y atractivos, pero manteniendo la esencia de lo que escribiste y, por supuesto, tus créditos dentro del proyecto.💙
-- By erin pin pin :3
+Nota para mi manysito: A partir de este changelog modifiqué ligeramente la forma de redactar tus cambios, para hacerlos un poco más formales, claros y atractivos, pero manteniendo la esencia de lo que escribiste y, por supuesto, tus créditos dentro del proyecto. 💙
+
+- By Erin Pin Pin :3
 
 ================
 
@@ -29,7 +30,7 @@ Empecé reorganizando los paths de estilos.
 
 ☆ Los componentes útiles que se reutilizarán en otras páginas los he metido en --Components--, con sus debidos estilos y scripts que utilizan.
 
-☆ Los estilos que hay por ahora son generales, a excepción del carrusel, te recomiendo que sea por página, para no mezclar todos los estilos en un solo path, tengas un CSS propio por página (como el de carrusel). Esto hace muchísimo mejor su reutilización y manejo en otras páginas.
+☆ Los estilos que hay por ahora son generales, a excepción del carrusel. Te recomiendo que sea por página, para no mezclar todos los estilos en un solo path, tengas un CSS propio por página (como el de carrusel). Esto hace muchísimo mejor su reutilización y manejo en otras páginas.
 
 ================
 
@@ -65,34 +66,56 @@ Muchas líneas de código (como, por ejemplo, el navegador) se podían mejorar, 
 
 Manymate1 Loves Eripinpin :3
 
-    Femboys Rulez!
+
+       Femboys Rulez!
+
 
 Manymate1 Was Her3.
 
 ================
 
- 1 de septiembre de 2026 - By Erin Pin Pin (Vdexx)
+1 de septiembre de 2026 - By Erin Pin Pin (Vdexx)
+
+✦・──────────────・♫・──────────────・✦
 
 Mejoras de interfaz y diseño
 
-* Añadi una nueva hoja de estilos icons.css para los estilos reutilizables de las tarjetas de la Wiki y los iconos relacionados.
-* Añadi diseños responsivos para las tarjetas de la Wiki y se mejoró su apariencia en pantallas pequeñas.
-* Añadi iconos e imágenes específicos para **Survivors, Executioners, Maps, Lore y Customization.
-* Mejore el espaciado, los tamaños, la alineación y la presentación general de las tarjetas de la Wiki.
-* Algunos estilos responsivos se trasladaron de style.css a icons.css para mantener los estilos mejor organizados y facilitar su mantenimiento.
+♫ Añadí una nueva hoja de estilos --icons.css-- para los estilos reutilizables de las tarjetas de la Wiki y los iconos relacionados.
+
+✧ Añadí diseños responsivos para las tarjetas de la Wiki y se mejoró su apariencia en pantallas pequeñas.
+
+★ Añadí iconos e imágenes específicos para Survivors, Executioners, Maps, Lore (W.I.P).
+
+✦ Mejoré el espaciado, los tamaños, la alineación y la presentación general de las tarjetas de la Wiki.
+
+♪ Algunos estilos responsivos se trasladaron de style.css a icons.css para mantener los estilos mejor organizados y facilitar su mantenimiento.
+
+✦・──────────────・♫・──────────────・✦
 
 Mejoras de HTML
-* Actualice la estructura de las tarjetas de la Wiki en index.html para permitir el uso de iconos y diseños de contenido reutilizables.
-* Elimine el aviso desactualizado que indicaba que la Wiki estaba archivada.
-* Limpie un poco la estructura del HTML.
+
+♫ Actualicé la estructura de las tarjetas de la Wiki en index.html para permitir el uso de iconos y diseños de contenido reutilizables.
+
+✧ Eliminé el aviso desactualizado que indicaba que la Wiki estaba archivada.
+
+★ Limpié un poco la estructura del HTML.
+
+✦・──────────────・♫・──────────────・✦
 
 Recursos
-* Se añadieron nuevos recursos visuales para las categorías principales de la Wiki (en proceso)
 
-  * Survivors
-  * Executioners
-  * Maps
-  * Lore
-  * Customization
+♫ Se añadieron nuevos recursos visuales para las categorías principales de la Wiki (en proceso):
 
-  **---Love ya matew!---**
+　✦ Survivors
+
+　☆ Executioners
+
+　✦ Maps
+
+　☆ Lore
+
+　✦ Customization
+
+✦・──────────────・♫・──────────────・✦ - jeje :3
+
+**---Love ya matew!---**
