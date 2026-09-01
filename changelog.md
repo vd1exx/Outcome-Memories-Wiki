@@ -58,7 +58,7 @@ muchas lineas de codigo ( como por ejemplo el navegador ), se podian mejorar, as
 
 ======== Final ========
 
-Manymate1 Loves Eripinpin :3c
+Manymate1 Loves Eripinpin :3
 
         Femboys Rulez!
 

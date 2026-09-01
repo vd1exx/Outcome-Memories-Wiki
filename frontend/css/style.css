@@ -178,21 +178,6 @@ footer p{
 }
 
 
-
-@media (max-width: 500px){
-    main > h1{
-        font-size: 28px;
-    }
-
-    .welcome{
-        padding: 18px;
-    }
-
-    .welcome h2{
-        font-size: 21px;
-    }
-}
-
 @media (prefers-reduced-motion: reduce){
     html{
         scroll-behavior: auto;
