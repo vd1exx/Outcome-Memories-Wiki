@@ -1,10 +1,15 @@
+Changelog
+
 --Cambios hechos por Manymate1--
+
+Nota para mi manysito: A partir de este changelog modifique ligeramente la forma de redactar tus cambios, para hacerlos un poco más formales, claros y atractivos, pero manteniendo la esencia de lo que escribiste y, por supuesto, tus créditos dentro del proyecto.💙
+- By erin pin pin :3
 
 ================
 
-desicion de organización del proyecto:
+Decisión de organización del proyecto:
 
-Todo lo que tenga que ver con frontend ( Lo visible de la pagina), Lo meti en su respectiva carpeta Frontend donde se encuentra
+Todo lo que tenga que ver con frontend (lo visible de la página), lo metí en su respectiva carpeta Frontend, donde se encuentra:
 
 ★ Carpeta css
 
@@ -12,56 +17,82 @@ Todo lo que tenga que ver con frontend ( Lo visible de la pagina), Lo meti en su
 
 ★ Scripts
 
-★ Index.html se ha sacado de una carpeta, y se ha puesto en la raíz principal del proyecto
+★ Index.html se ha sacado de una carpeta y se ha puesto en la raíz principal del proyecto.
 
 ================
 
-Desicion de estilos:
+Decisión de estilos:
 
-Empece reorganizando los paths de estilos.
+Empecé reorganizando los paths de estilos.
 
-☆ los elementos de navegador que estaban en --css/style.css-- Los movi a: --css/layout.css--
+☆ Los elementos de navegador que estaban en --css/style.css-- los moví a: --css/layout.css--
 
-☆ Componentes utiles que se reutilizaran en otras paginas las he metido en --Components-- Con sus debidos estilos y scripts que usan
+☆ Los componentes útiles que se reutilizarán en otras páginas los he metido en --Components--, con sus debidos estilos y scripts que utilizan.
 
-☆ Los estilos que hay por ahora son generales, a excepcion del carrusel, te recomiendo que por pagina, para no mezclar todo los estilos en un solo path, tengas un css propio por pagina ( como el de carrusel ), hace muchisimo mejor su reutilizacion y manejo en otras paginas.
-
-================
-
-sintaxis y organizacion del codigo
-
-muchas lineas de codigo ( como por ejemplo el navegador ), se podian mejorar, asi que lo hice.
-
-✧ El navegador ahora se organiza por una lista ( Especificamente UL )
-
-✧ Deje espacios entre clases, alts, divs, etc, para una mejor lectura del codigo
-
-✧ El Lenguaje de html ahora es Inglés
-
-✧ Cada seccion de codigo tiene un comentario que explica que es lo que hace en el codigo
+☆ Los estilos que hay por ahora son generales, a excepción del carrusel, te recomiendo que sea por página, para no mezclar todos los estilos en un solo path, tengas un CSS propio por página (como el de carrusel). Esto hace muchísimo mejor su reutilización y manejo en otras páginas.
 
 ================
 
-¿Que añadi?
+Sintaxis y organización del código:
 
-✦ Las carpetas: Frontend, Components, Img - Backgrounds - carousel-imgs, scripts
+Muchas líneas de código (como, por ejemplo, el navegador) se podían mejorar, así que lo hice.
 
-✦ archivos: ( Todas las imagenes actuales ), Layout.css - carousel.css, img-carousel.js, header-bar.html - images-carousel.html.
+✧ El navegador ahora se organiza por una lista (específicamente UL).
 
-✦ a la pagina en si le agregue: 
+✧ Dejé espacios entre clases, alts, divs, etc., para una mejor lectura del código.
 
-    ✦ un FavIcon ( icono que aparece en la pestaña ) y deje otro en la carpeta img, para otra pestaña, dale el uso que quieras.
+✧ El lenguaje de HTML ahora es inglés.
 
-    ✦ un carrusel de imagenes con un link a la pagina de roblox del juego.
+✧ Cada sección de código tiene un comentario que explica qué es lo que hace en el código.
 
-    ✦ una imagen de fondo
+================
+
+¿Qué añadí?
+
+✦ Las carpetas: Frontend, Components, Img - Backgrounds - carousel-imgs, scripts.
+
+✦ Archivos: (Todas las imágenes actuales), Layout.css - carousel.css, img-carousel.js, header-bar.html - images-carousel.html.
+
+✦ A la página en sí le agregué:
+
+✦ Un FavIcon (icono que aparece en la pestaña) y dejé otro en la carpeta img, para otra pestaña. Dale el uso que quieras.
+
+✦ Un carrusel de imágenes con un link a la página de Roblox del juego.
+
+✦ Una imagen de fondo.
 
 ======== Final ========
 
 Manymate1 Loves Eripinpin :3
 
-        Femboys Rulez!
+    Femboys Rulez!
 
-    Manymate1 Was Her3.
+Manymate1 Was Her3.
 
+================
 
+ 1 de septiembre de 2026 - By Erin Pin Pin (Vdexx)
+
+Mejoras de interfaz y diseño
+
+* Añadi una nueva hoja de estilos icons.css para los estilos reutilizables de las tarjetas de la Wiki y los iconos relacionados.
+* Añadi diseños responsivos para las tarjetas de la Wiki y se mejoró su apariencia en pantallas pequeñas.
+* Añadi iconos e imágenes específicos para **Survivors, Executioners, Maps, Lore y Customization.
+* Mejore el espaciado, los tamaños, la alineación y la presentación general de las tarjetas de la Wiki.
+* Algunos estilos responsivos se trasladaron de style.css a icons.css para mantener los estilos mejor organizados y facilitar su mantenimiento.
+
+Mejoras de HTML
+* Actualice la estructura de las tarjetas de la Wiki en index.html para permitir el uso de iconos y diseños de contenido reutilizables.
+* Elimine el aviso desactualizado que indicaba que la Wiki estaba archivada.
+* Limpie un poco la estructura del HTML.
+
+Recursos
+* Se añadieron nuevos recursos visuales para las categorías principales de la Wiki (en proceso)
+
+  * Survivors
+  * Executioners
+  * Maps
+  * Lore
+  * Customization
+
+  **---Love ya matew!---**
