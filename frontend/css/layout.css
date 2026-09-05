@@ -1,13 +1,43 @@
 
 /* Cambios Hecho Por @Manymate1 */
 
-body{
+/* Header */
 
-    background-image: url(../img/Backgrounds/Background.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.header-logo{
+    min-height: 70px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-dark);
+    border-bottom: 1px solid var(--red);
+}
 
+.wiki-card-logo-sigma{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    color: var(--text);
+    text-decoration: none;
+    line-height: 1;
+}
+
+.logo strong{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.logo span{
+    margin-top: 5px;
+    color: var(--red-light);
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 /* Navigator Elements */
@@ -41,10 +71,40 @@ nav a.active{
     border-bottom: 2px solid var(--red-light);
 }
 
+/* Main */
+
+main{
+    width: min(1100px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 35px 0 60px;
+}
+
+main > h1{
+    margin: 0 0 25px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+    font-size: 34px;
+}
+
+/* Footer */
+
+footer{
+    padding: 25px;
+    background-color: var(--background-dark);
+    border-top: 1px solid var(--border);
+    text-align: center;
+}
+
+footer p{
+    margin: 5px;
+    color: var(--text-muted);
+    font-size: 12px;
+}
+
 /* Responsive designs for 800px screens */
 
 @media (max-width: 800px){
-    .site-header{
+    .header-logo{
         padding: 15px 20px;
         flex-direction: column;
         align-items: flex-start;
@@ -66,5 +126,11 @@ nav a.active{
     main{
         width: min(100% - 25px, 700px);
         padding-top: 25px;
+    }
+}
+
+@media (max-width: 500px){
+    main > h1{
+        font-size: 28px;
     }
 }

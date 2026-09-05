@@ -1,0 +1,56 @@
+/* Elementos exclusivos de la pagina Home */
+
+.welcome{
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    margin-bottom: 35px;
+    padding: 25px;
+    background-color: var(--panel);
+    border: 1px solid var(--red);
+}
+
+.welcome-text{
+    width: 50%;
+}
+
+.welcome h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.welcome p{
+    line-height: 1.7;
+    color: var(--text-secondary);
+}
+
+.wiki-notice{
+    margin-top: 35px;
+    padding: 20px;
+    background-color: #170404;
+    border-left: 4px solid var(--red);
+    border-top: 1px solid #6b0000;
+    border-right: 1px solid #6b0000;
+    border-bottom: 1px solid #6b0000;
+}
+
+.wiki-notice h2{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.wiki-notice p{
+    margin-bottom: 0;
+    color: var(--text-secondary);
+}
+
+@media (max-width: 500px){
+    .welcome{
+        padding: 18px;
+    }
+
+    .welcome h2{
+        font-size: 21px;
+    }
+}

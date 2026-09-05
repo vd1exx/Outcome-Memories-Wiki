@@ -1,0 +1,68 @@
+/* Tarjetas reutilizables de la wiki (Explore the Wiki) */
+
+.wiki-section{
+    margin-top: 35px;
+}
+
+.wiki-section > h2{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+    font-size: 24px;
+}
+
+.wiki-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.wiki-section article{
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: var(--panel);
+    border: 1px solid var(--border);
+    transition: background-color .2s ease, border-color .2s ease, transform .2s ease;
+}
+
+.wiki-section article:hover{
+    background-color: var(--panel-hover);
+    border-color: var(--red);
+    transform: translateY(-2px);
+}
+
+.wiki-section article h3{
+    margin: 0 0 8px;
+    font-size: 20px;
+}
+
+.wiki-section article p{
+    margin: 0 0 12px;
+    color: var(--text-secondary);
+}
+
+.wiki-section article a{
+    color: var(--red-light);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.wiki-section article a:hover{
+    text-decoration: underline;
+}
+
+.wiki-card-content{
+    flex: 1;
+    min-width: 0;
+}
+
+@media (max-width: 500px) {
+    .wiki-card {
+        gap: 14px;
+        padding: 16px;
+    }
+
+    .wiki-card-content h3 {
+        font-size: 18px;
+    }
+}

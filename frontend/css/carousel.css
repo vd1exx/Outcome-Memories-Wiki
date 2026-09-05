@@ -1,24 +1,5 @@
 /* image carousel By Manymate1 */
 
-/* This reassigns the welcome text within the hierarchy to reorganize it
-
-(it could just as well go in the CSS where 'welcome' is originally located). */
-
-.welcome {
-
-    display: flex;
-    align-items: stretch;
-    gap: 20px;
-}
-
-.welcome-text {
-
-    width: 50%;
-
-}
-
-/* Carousel Elements */
-
 .carousel {
 
     position: relative;
@@ -36,6 +17,19 @@
     text-align: center;
     padding: 10px;
     font-weight: bold;
+
+}
+
+.carousel-bar a{
+
+    text-decoration: none;
+    color: aqua;
+
+}
+
+.carousel-bar a:hover{
+
+    color: crimson;
 
 }
 
@@ -78,16 +72,3 @@
 
 .prev { left: 0; }
 .next { right: 0; }
-
-a{
-
-    text-decoration: none;
-    color: aqua;
-
-}
-
-a:hover{
-
-    color: crimson;
-
-}

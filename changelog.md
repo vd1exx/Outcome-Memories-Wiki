@@ -118,4 +118,46 @@ Recursos
 
 ✦・──────────────・♫・──────────────・✦ - jeje :3
 
+================
+
+4 de septiembre de 2026 - By Erin Pin Pin (Vdexx)
+
+✦・──────────────・♫・──────────────・✦
+
+Mejoras visuales
+
+♫ Cambié la sección anteriormente llamada "About the Wiki" por "Important Articles in Game" para darle una función más enfocada dentro de la página principal.
+
+✧ Mejoré visualmente la distribución de los artículos utilizando `display`, evitando que los elementos se apilaran uno encima de otro como ocurría anteriormente.
+
+★ La sección ahora aprovecha mejor el espacio disponible y presenta sus elementos de una forma más ordenada.
+
+✦・──────────────・♫・──────────────・✦
+
+CSS
+
+♫ Organicé y separé mejor las hojas de estilos del proyecto según la función que cumple cada una.
+
+✧ `cards.css` → Los estilos de las tarjetas reutilizables.
+
+★ `carousel.css` → Los estilos relacionados con el carrusel.
+
+✦ `home.css` → Los estilos específicos de la página principal.
+
+♪ `icons.css` → Los estilos relacionados con iconos.
+
+♫ `layout.css` → La estructura general, navegación y distribución de la página.
+
+✧ `style.css` → Estilos generales y elementos base.
+
+★ Esta reorganización facilita el mantenimiento del proyecto y evita tener estilos de diferentes componentes mezclados sin una estructura clara.
+
+✦・──────────────・♫・──────────────・✦
+
+Futuras secciones (W.I.P)
+
+♫ Creé los archivos HTML base para las futuras secciones de la wiki: `survivors.html` `exectuioners.html`, `maps.html`, `lore.html`, y `abilities.html`.
+
+✦・──────────────・♫・──────────────・✦
+
 **---Love ya matew!---**
